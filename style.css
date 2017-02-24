@@ -9,10 +9,25 @@ body,html {
   font-family: sans-serif;
 }
 
-.keys {
+.top-keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+.home-keys {
+  display: flex;
+  flex: 1;
+  min-height: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.upper-keys {
+  display: flex;
+  flex: 1;
+  min-height: 20vh;
   align-items: center;
   justify-content: center;
 }
@@ -23,7 +38,7 @@ body,html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition: all .7s ease;
   width: 10rem;
   text-align: center;
   color: white;
@@ -32,7 +47,7 @@ body,html {
 }
 
 .playing {
-  transform: scale(1.1);
+  transform: scale(5);
   border-color: #ffc600;
   box-shadow: 0 0 1rem #ffc600;
 }
