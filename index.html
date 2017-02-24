@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="top-keys">
+  <div class="top-keys keys">
     <div data-key="192" class="key">
       <kbd>``</kbd>
       <span class="sound"></span>
@@ -65,7 +65,7 @@
     </div>
   </div>
 
-  <div class="upper-keys">
+  <div class="upper-keys keys">
     <div data-key="9" class="key">
       <kbd>Tab</kbd>
       <span class="sound"></span>
@@ -124,7 +124,7 @@
     </div>
   </div>
 
-  <div class="home-keys">
+  <div class="home-keys keys">
     <div data-key="20" class="key">
       <kbd>Caps</kbd>
       <span class="sound">Caps Lock</span>
@@ -174,67 +174,112 @@
       <span class="sound">Qoutes</span>
     </div>
     <div data-key="13" class="key">
-      <kbd>Enter</kbd>
+      <kbd>Ret</kbd>
       <span class="sound">Enter</span>
     </div>
   </div>
 
-  <div class="home-keys">
+  <div class="lower-keys keys">
     <div data-key="16" class="key">
       <kbd>Up</kbd>
       <span class="sound">Shift</span>
     </div>
-    <div data-key="65" class="key">
-      <kbd>A</kbd>
-      <span class="sound">apple</span>
+    <div data-key="90" class="key">
+      <kbd>Z</kbd>
+      <span class="sound">Zebra</span>
     </div>
-    <div data-key="83" class="key">
-      <kbd>S</kbd>
-      <span class="sound">Superman</span>
+    <div data-key="88" class="key">
+      <kbd>X</kbd>
+      <span class="sound">Xylophone</span>
     </div>
-    <div data-key="68" class="key">
-      <kbd>D</kbd>
-      <span class="sound">Donkey</span>
+    <div data-key="67" class="key">
+      <kbd>C</kbd>
+      <span class="sound">Clock</span>
     </div>
-    <div data-key="70" class="key">
-      <kbd>F</kbd>
-      <span class="sound">Father</span>
+    <div data-key="87" class="key">
+      <kbd>V</kbd>
+      <span class="sound">Vaccinate</span>
     </div>
-    <div data-key="71" class="key">
-      <kbd>G</kbd>
-      <span class="sound">Grandmother</span>
+    <div data-key="66" class="key">
+      <kbd>B</kbd>
+      <span class="sound">Baseball</span>
     </div>
-    <div data-key="72" class="key">
-      <kbd>H</kbd>
-      <span class="sound">Hungry</span>
+    <div data-key="78" class="key">
+      <kbd>N</kbd>
+      <span class="sound">Norway</span>
     </div>
-    <div data-key="74" class="key">
-      <kbd>J</kbd>
-      <span class="sound">Justice</span>
+    <div data-key="77" class="key">
+      <kbd>M</kbd>
+      <span class="sound">Money</span>
     </div>
-    <div data-key="75" class="key">
-      <kbd>K</kbd>
-      <span class="sound">Kangaroo</span>
+    <div data-key="188" class="key">
+      <kbd>,</kbd>
+      <span class="sound">Comma</span>
     </div>
-    <div data-key="76" class="key">
-      <kbd>L</kbd>
-      <span class="sound">London</span>
+    <div data-key="190" class="key">
+      <kbd>.</kbd>
+      <span class="sound">Period</span>
     </div>
-    <div data-key="186" class="key">
-      <kbd>;</kbd>
-      <span class="sound">Semi-colon</span>
-    </div>
-    <div data-key="222" class="key">
-      <kbd>''</kbd>
-      <span class="sound">Qoutes</span>
-    </div>
-    <div data-key="13" class="key">
-      <kbd>Enter</kbd>
-      <span class="sound">Enter</span>
+    <div data-key="16" class="key">
+      <kbd>Up</kbd>
+      <span class="sound">Shift</span>
     </div>
   </div>
 
+  <div class="bottom-keys keys">
+    <div data-key="17" class="key">
+      <kbd>Ctrl</kbd>
+      <span class="sound">Control</span>
+    </div>
+    <div data-key="18" class="key">
+      <kbd>Alt</kbd>
+      <span class="sound">Option</span>
+    </div>
+    <div data-key="91" class="key">
+      <kbd>LS</kbd>
+      <span class="sound">Left Super</span>
+    </div>
+    <div data-key="32" class="key" id="space-bar">
+      <kbd>_</kbd>
+      <span class="sound">Space</span>
+    </div>
+    <div data-key="93" class="key">
+      <kbd>RS</kbd>
+      <span class="sound">Right Super</span>
+    </div>
+    <div data-key="18" class="key">
+      <kbd>Alt</kbd>
+      <span class="sound">Option</span>
+    </div>
+    <div data-key="37" class="key">
+      <kbd>Left</kbd>
+      <span class="sound">Arrow</span>
+    </div>
+    <div data-key="40" class="key">
+      <kbd>Down</kbd>
+      <span class="sound">Arrow</span>
+    </div>
+    <div data-key="38" class="key">
+      <kbd>Up</kbd>
+      <span class="sound">Arrow</span>
+    </div>
+    <div data-key="39" class="key">
+      <kbd>Right</kbd>
+      <span class="sound">Arrow</span>
+    </div>
+  </div>
+
+  <!-- <audio data-key="8" src="sounds/0.wav"></audio>
+  <audio data-key="9" src="sounds/0.wav"></audio>
+  <audio data-key="13" src="sounds/0.wav"></audio> -->
   <audio data-key="16" src="sounds/BabblingBrook.wav"></audio>
+  <!-- <audio data-key="17" src="sounds/0.wav"></audio>
+  <audio data-key="18" src="sounds/0.wav"></audio>
+  <audio data-key="32" src="sounds/0.wav"></audio>
+  <audio data-key="37" src="sounds/0.wav"></audio>
+  <audio data-key="38" src="sounds/0.wav"></audio>
+  <audio data-key="39" src="sounds/0.wav"></audio>
+  <audio data-key="40" src="sounds/0.wav"></audio> -->
   <audio data-key="48" src="sounds/0.wav"></audio>
   <audio data-key="49" src="sounds/1.wav"></audio>
   <audio data-key="50" src="sounds/2.wav"></audio>
@@ -271,17 +316,35 @@
   <audio data-key="88" src="sounds/x.wav"></audio>
   <audio data-key="89" src="sounds/y.wav"></audio>
   <audio data-key="90" src="sounds/z.wav"></audio>
-  <audio data-key="65" src="sounds/a.wav"></audio>
+  <!-- <audio data-key="91" src="sounds/0.wav"></audio>
+  <audio data-key="91" src="sounds/0.wav"></audio>
+  <audio data-key="93" src="sounds/0.wav"></audio>
+  <audio data-key="186" src="sounds/0.wav"></audio>
+  <audio data-key="187" src="sounds/0.wav"></audio>
+  <audio data-key="188" src="sounds/0.wav"></audio>
+  <audio data-key="189" src="sounds/0.wav"></audio>
+  <audio data-key="190" src="sounds/0.wav"></audio>
+  <audio data-key="219" src="sounds/0.wav"></audio>
+  <audio data-key="220" src="sounds/0.wav"></audio>
+  <audio data-key="221" src="sounds/0.wav"></audio>
+  <audio data-key="222" src="sounds/0.wav"></audio> -->
 
 <script>
-  window.addEventListener('keydown', function(e) {
+  window.addEventListener('keydown', playSound);
+  function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
     if(!audio) return; // only continue if an audio file is available
+    var audios = document.getElementsByTagName('audio');
+    for(var i = 0, len = audios.length; i < len;i++){
+      if(audios[i] != audio){
+        audios[i].pause();
+      }
+    }
     audio.currentTime = 0; // rewind to start if ic was in the middle of playing
     audio.play();
     key.classList.add('playing');
-  });
+  };
 
   function removeTransition(e){
     if(e.propertyName!='transform') return;

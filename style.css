@@ -9,27 +9,41 @@ body,html {
   font-family: sans-serif;
 }
 
+.keys {
+  align-items: center;
+  justify-content: center;
+}
 .top-keys {
   display: flex;
   flex: 1;
   min-height: 20vh;
-  align-items: center;
-  justify-content: center;
 }
 .home-keys {
   display: flex;
   flex: 1;
   min-height: 20vh;
-  align-items: center;
-  justify-content: center;
 }
 
 .upper-keys {
   display: flex;
   flex: 1;
   min-height: 20vh;
-  align-items: center;
-  justify-content: center;
+}
+
+.lower-keys {
+  display: flex;
+  flex: 1;
+  min-height: 20vh;
+}
+
+.bottom-keys {
+  display: flex;
+  flex: 1;
+  min-height: 20vh;
+}
+
+div #space-bar {
+  width: 100rem;
 }
 
 .key {
